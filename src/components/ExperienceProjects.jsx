@@ -6,6 +6,7 @@ export const ExperienceProjects = () => {
   return (
     <section
       id={activeTab}
+      className="exp-section"
       style={{ height: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}
     >
       <div style={{ display: "flex", gap: "2rem", marginBottom: "2rem" }}>
@@ -55,7 +56,7 @@ export const ExperienceProjects = () => {
                 border: "1px solid color-mix(in srgb, var(--text) 12%, transparent)",
               }}
             >
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.35rem" }}>
+              <div className="exp-card-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.35rem" }}>
                 <h3 style={{ fontFamily: "var(--sans)", fontSize: "1.05rem", fontWeight: 600, margin: 0, color: "var(--text-h)" }}>
                   Persol Systems Limited
                 </h3>
@@ -86,7 +87,7 @@ export const ExperienceProjects = () => {
                 border: "1px solid color-mix(in srgb, var(--text) 12%, transparent)",
               }}
             >
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.35rem" }}>
+              <div className="exp-card-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "0.35rem" }}>
                 <h3 style={{ fontFamily: "var(--sans)", fontSize: "1.05rem", fontWeight: 600, margin: 0, color: "var(--text-h)" }}>
                   PawPath — AI Dog Walking App
                 </h3>

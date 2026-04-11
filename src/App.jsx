@@ -2,6 +2,7 @@ import { GradientBackground } from "./components/GradientBackground";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { ExperienceProjects } from "./components/ExperienceProjects";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <About />
         <ExperienceProjects />
       </main>
+      <Analytics />
     </div>
   )
 }

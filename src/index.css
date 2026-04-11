@@ -70,3 +70,36 @@ a {
   transform: translateY(-2px);
   box-shadow: 0 6px 24px color-mix(in srgb, var(--text) 10%, transparent);
 }
+
+@media (max-width: 640px) {
+  .hero-inner {
+    flex-direction: column-reverse !important;
+    gap: 2rem !important;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 3rem !important;
+  }
+
+  .hero-img {
+    width: 12rem !important;
+    height: 11rem !important;
+  }
+
+  .exp-section {
+    height: auto !important;
+    min-height: 100vh;
+    padding: 4rem 1.5rem;
+  }
+
+  .exp-card-header {
+    flex-direction: column !important;
+    gap: 0.25rem;
+  }
+
+  .exp-card-header span {
+    margin-left: 0 !important;
+    white-space: normal !important;
+  }
+}
