@@ -52,14 +52,6 @@ a {
   animation: fadeSlideUp 0.3s ease forwards;
 }
 
-.exp-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.exp-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px color-mix(in srgb, var(--text) 10%, transparent);
-}
 
 @media (max-width: 640px) {
   .hero-inner {
