@@ -17,7 +17,7 @@ export const About = () => {
             <div style={{maxWidth: "750px", width: "100%", textAlign: "center" }}>
                 <p style={{ fontFamily: "var(--mono)", fontSize: "1.05rem", lineHeight: 1.9, margin: 0, color: "var(--text-h)" }}>
                     <DecryptedText
-                        text="A Math & CS student at Fordham University interested in backend systems, performance, and security. I enjoy picking up new languages and technologies, optimizing things until they’re slightly faster than necessary and binge-watching shows at an unhealthy pace."
+                        text="A Math & CS student at Fordham University interested in backend systems, performance, and security. I enjoy picking up new languages and technologies, optimizing things until they’re slightly faster than necessary."
                         animateOn="inViewHover"
                         sequential
                         revealDirection="start"
