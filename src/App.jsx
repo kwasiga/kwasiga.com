@@ -17,7 +17,7 @@ function App() {
         zIndex: 100,
       }}>
         <a
-          href="https://github.com/Kwasiga06"
+          href="https://github.com/Kwasiga"
           target="_blank"
           rel="noopener noreferrer"
           style={{
