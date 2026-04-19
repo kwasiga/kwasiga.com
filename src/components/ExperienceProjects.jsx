@@ -91,7 +91,7 @@ export const ExperienceProjects = () => {
                 </p>
                 <div style={{ display: "flex", gap: "1rem" }}>
                   <a
-                    href="https://github.com/Kwasiga06/pawpath"
+                    href="https://github.com/kwasiga/pawpath"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ fontFamily: "var(--mono)", fontSize: "0.7rem", opacity: 0.55, textDecoration: "none", transition: "opacity 0.2s" }}
