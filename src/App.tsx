@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
-const EMAIL = 'kag7@fordham.edu';
+const EMAIL = 'kwasikge@gmail.com';
 
 function EmailPopup({ onClose }: { onClose: () => void }) {
   const [copied, setCopied] = useState(false);
