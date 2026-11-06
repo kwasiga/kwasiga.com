@@ -24,7 +24,7 @@
 
 .icons a,
 .icon-btn {
-  color: #111111;
+  color: #f2f2f2;
   display: flex;
   align-items: center;
   transition: color 0.15s ease;
@@ -37,7 +37,7 @@
 
 .icons a:hover,
 .icon-btn:hover {
-  color: #8c7b6e;
+  color: #b0b0b0;
 }
 
 .email-icon-wrap {
@@ -50,14 +50,14 @@
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  background: #111111;
-  color: #F2EDE7;
+  background: #1a1a1a;
+  color: #f2f2f2;
   border-radius: 8px;
   padding: 12px 14px 10px;
   white-space: nowrap;
   z-index: 10;
   min-width: 200px;
-  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.16);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 .email-popup-address {
@@ -69,14 +69,14 @@
 .email-popup-actions {
   display: flex;
   gap: 10px;
-  border-top: 1px solid rgba(242, 237, 231, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 8px;
 }
 
 .email-popup-btn {
   background: none;
   border: none;
-  color: #F2EDE7;
+  color: #f2f2f2;
   font-family: inherit;
   font-size: 12px;
   cursor: pointer;
@@ -91,13 +91,13 @@
 }
 
 .bio {
-  color: #111111;
+  color: #f2f2f2;
   margin-bottom: 8px;
 }
 
 .bio a {
   font-weight: 400;
-  color: #111111;
+  color: #f2f2f2;
   text-decoration: none;
   border-radius: 4px;
   padding: 1px 5px;
@@ -107,11 +107,11 @@
 }
 
 .bio a:hover {
-  background-color: rgba(140, 123, 110, 0.16);
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .bio-muted {
-  color: #8c7b6e;
+  color: #b0b0b0;
   margin-bottom: 36px;
 }
 
@@ -120,27 +120,27 @@
 }
 
 .bio-roles .item {
-  color: #8c7b6e;
+  color: #b0b0b0;
 }
 
 .bio-roles .item a {
-  color: #8c7b6e;
+  color: #b0b0b0;
   font-weight: 400;
 }
 
 .bio-roles .item a.link-highlight {
-  color: #111111;
+  color: #f2f2f2;
 }
 
 .bio-muted a {
-  color: #8c7b6e;
+  color: #b0b0b0;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .bio-muted a:hover {
-  color: #111111;
+  color: #f2f2f2;
   border-color: currentColor;
 }
 
@@ -153,49 +153,22 @@
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8c7b6e;
+  color: #b0b0b0;
   margin-bottom: 12px;
-}
-
-.proj-expand-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  margin-top: 4px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: center;
-  color: #8c7b6e;
-  transition: color 0.15s ease;
-}
-
-.proj-expand-btn:hover {
-  color: #111111;
-}
-
-.proj-arrow {
-  color: inherit;
-  transition: transform 0.2s ease;
-}
-
-.proj-arrow.open {
-  transform: rotate(180deg);
 }
 
 .item {
   display: flex;
   gap: 8px;
-  color: #111111;
+  color: #f2f2f2;
   margin-bottom: 4px;
 }
 
-.item-dash { color: #8c7b6e; flex-shrink: 0; }
+.item-dash { color: #b0b0b0; flex-shrink: 0; }
 
 .item a {
   font-weight: 400;
-  color: #111111;
+  color: #f2f2f2;
   text-decoration: none;
   border-radius: 4px;
   padding: 1px 5px;
@@ -205,7 +178,7 @@
 }
 
 .item a:hover {
-  background-color: rgba(140, 123, 110, 0.16);
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
-.item-desc { color: #8c7b6e; }
+.item-desc { color: #b0b0b0; }

@@ -37,7 +37,6 @@ function EmailPopup({ onClose }: { onClose: () => void }) {
 
 export default function App() {
   const [emailOpen, setEmailOpen] = useState(false);
-  const [projOpen, setProjOpen] = useState(false);
 
   return (
     <div className="page">
@@ -101,13 +100,6 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/customer_query_routing_agent" target="_blank" rel="noopener noreferrer">customer query routing agent</a>
-            <span className="item-desc">. autonomous support pipeline — retrieval, triage, and auto-resolve or warm escalation.</span>
-          </span>
-        </div>
-        <div className="item">
-          <span className="item-dash">–</span>
-          <span>
             <a href="https://github.com/kwasiga/slack-codebase-agent" target="_blank" rel="noopener noreferrer">codebase q&a agent</a>
             <span className="item-desc">. agentic rag over github repos via slack, with self-refining queries and cited answers.</span>
           </span>
@@ -115,57 +107,10 @@ export default function App() {
         <div className="item">
           <span className="item-dash">–</span>
           <span>
-            <a href="https://github.com/kwasiga/goapi" target="_blank" rel="noopener noreferrer">jwt auth service</a>
-            <span className="item-desc">. rest api in go with chi. jwt auth, rbac, and coin balance endpoint.</span>
+            <a href="https://github.com/kwasiga/sentinel" target="_blank" rel="noopener noreferrer">detection &amp; response pipeline</a>
+            <span className="item-desc">. security event monitoring and incident response service.</span>
           </span>
         </div>
-        {projOpen && (
-          <>
-            <div className="item">
-              <span className="item-dash">–</span>
-              <span>
-                <a href="https://github.com/kwasiga/rag-pipeline" target="_blank" rel="noopener noreferrer">rag pipeline</a>
-                <span className="item-desc">. production multimodal rag pipeline.</span>
-              </span>
-            </div>
-            <div className="item">
-              <span className="item-dash">–</span>
-              <span>
-                <a href="https://github.com/kwasiga/pawpath" target="_blank" rel="noopener noreferrer">pawpath</a>
-                <span className="item-desc">. (won RAMHACK '26 track). AI dog walking + route optimization.</span>
-              </span>
-            </div>
-            <div className="item">
-              <span className="item-dash">–</span>
-              <span>
-                <a href="https://github.com/kwasiga/Spoty" target="_blank" rel="noopener noreferrer">spoty</a>
-                <span className="item-desc">. social app with real-time listening activity, listening stats, taste compatibility, and friend reactions.</span>
-              </span>
-            </div>
-            <div className="item">
-              <span className="item-dash">–</span>
-              <span>
-                <a href="https://github.com/kwasiga/was-alb-failover" target="_blank" rel="noopener noreferrer">aws alb failover</a>
-                <span className="item-desc">. ec2 + alb load balancing lab. traffic distribution and single-instance failover.</span>
-              </span>
-            </div>
-          </>
-        )}
-        <button className="proj-expand-btn" onClick={() => setProjOpen(o => !o)} aria-label="Toggle more projects">
-          <svg
-            className={`proj-arrow${projOpen ? ' open' : ''}`}
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
-        </button>
       </div>
 
       <div className="section">
